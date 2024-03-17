@@ -1,0 +1,255 @@
+/* Estilos para el contenedor del logo */
+div.logo {
+    float: left; /* Alinear a la izquierda */
+}
+
+/* Estilos para la imagen del logo */
+div.logo img {
+    width: 60px; /* Reducir el tamaño del logo */
+    height: auto; /* Mantener la proporción */
+}
+
+.tituloprin{
+    margin-left: 2.4cm; /* Mover el texto hacia la derecha */
+    margin-top: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-shadow: 4px 4px 9px #d3bc76;
+}
+.titulo {
+    margin-left: 2.4cm; /* Mover el texto hacia la derecha */
+    margin-top: 4px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align:center;
+text-shadow: 4px 4px 9px #0b0b0b67;
+}
+nav {
+    text-align: right;
+    margin-top: 0cm; /* Ajusta el margen superior según sea necesario */
+    text-shadow: 4px 4px 9px #0b0b0b;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: -1.1cm;
+    text-shadow: 4px 4px 9px #0b0b0b;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    text-decoration: none;
+    color: black; /* Cambia el color del texto según sea necesario */
+    margin-top: 0cm;
+    text-shadow: 4px 4px 9px #0b0b0b;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 2px;
+    border-bottom: 1px solid black; /* Línea inferior */
+}
+
+.contenedor{
+    display: flex;
+    margin-top: 40px;
+    .textopr{
+        margin-top: 25px;
+        font-size: 22px;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    .titulo{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 45px;
+        text-decoration: dotted;
+    }
+
+}
+.producto1{
+    width: 450px;
+    height: 350px;
+    padding-left: 4%;
+    padding-right: 4px;
+    padding-top: 45px;
+    cursor: pointer;
+    transition: 2s;
+}
+.producto2{
+    width: 450px;
+    height: 350px;
+    padding-left: 4%;
+    padding-right: 4px;
+    margin-right: 53px;
+    padding-top: 45px;
+    cursor: pointer;
+    transition: 2s;
+}
+.producto1:hover, .producto2:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse por encima */
+    transition: 2s;
+}
+.producto2 {
+    margin-right: 10px;
+}
+
+.textoi2{
+    margin-top: 25px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.boton{
+    text-align: center;
+    .Ver {
+        background-color: rgb(0, 0, 0);
+        padding: 15px 35px;
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;;
+        margin-top: -1500px;
+    }
+    padding-top: 45px;
+}
+
+.trabajo1{
+    width: 250px;
+    height: 250px;
+    padding-left: 5%;
+    padding-right: 5px;
+    padding-top: 45px;
+    cursor: pointer;
+    transition: 2s;
+}
+.trabajo2{
+    width: 250px;
+    height: 250px;
+    padding-left: 5%;
+    padding-right: 5px;
+    margin-right: 5px;
+    padding-top: 45px;
+    cursor: pointer;
+    transition: 2s;
+}
+.trabajo3{
+    width: 250px;
+    height: 250px;
+    padding-left: 5%;
+    padding-right: 5px;
+    margin-right: 5px;
+    padding-top: 45px;
+    cursor: pointer;
+    transition: 2s;
+}
+.trabajos2{
+    text-align: center;
+}
+
+.trabajo1:hover, .trabajo2:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse por encima */
+    transition: 2s;}
+.trabajo3:hover{
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse por encima */
+    transition: 2s;
+}
+
+.contenedor2{
+    text-align: left;
+    .titulo2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 45px;
+        text-decoration: dotted;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 4px 4px 9px #0b0b0b67;
+    }
+}
+.textoprincipal{
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.textosecundario{
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.trabajosboton {
+    text-align: center; /* Alinear el botón al centro */
+    margin-top: 60px; /* Espacio superior */
+    
+}
+
+.trabajosboton2 {
+    display: inline-block;
+    background-color: black; /* Color de fondo del recuadro */
+    padding: 15px 35px; /* Espacio interno */
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.tituloservicios{
+    text-align: left;
+    font-size: 27px;
+    padding-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px 9px #0b0b0b67; 
+}
+
+.cuerpotexto{
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    text-decoration:underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.servicios1{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.remodelaciontex{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.diseño{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Datosdecontacto{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 3px;   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px 9px #0b0b0b67;
+}
+.tituloss{
+    text-align: left;
+    margin-bottom: 23px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cuerpo1{
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
